@@ -1,9 +1,25 @@
 --- 
-title: "YOUR TITLE HERE"
-author: "YOUR NAME HERE"
+title: "Pesquisa de melhoria contínua usando R"
+author: "Marcelo Carvalho"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
+url: 'https://factorialmap.github.io/book_projeto_pesquisa/'
+github-repo: factorialmap/book_projeto_pesquisa
+description: "Guia prático para pesquisas em projetos de melhoria contínua usando a ferramenta de computação científica R"
+cover-image: images/pdca_capa.png
+apple-touch-icon: touch-icon.png
+apple-touch-icon-size: 120
+favicon: favicon.ico
 ---
 
-# Down the rabbit-hole
 
+# Prefácio {-}
+
+<p align="center">![Projeto de pesquisa de melhoria contínua usando R](images/projeto_pesquisa.png)</p>
+
+Neste livro o leitor encontrará boa parte das etapas existentes em um projeto de pesquisa direcionado para melhoria continua.É destinado a estudantes, pessoas que estão iniciando ou para aqueles que desejam refrescar a memória sobre o tema melhoría de contínua.
+
+As etapas serão exploradas permitindo que o leitor consiga compreender e reproduzir os conceitos, conjuntos de dados e códigos presentes no livro em suas pesquisas e experimentos.
+
+Agradeço a todos que contribuíram em discussões sobre formatos, experiências para o leitor, com comentários, erros de digitação e outras formas que ajudaram e ajudam a enriquecer o desenvolvimento desse livro. 
+Os contribuidores a partir de 01 de setembro de 2020 Sheilaback, @paulinyzito, @Muxtaa, FlávioCorrêa

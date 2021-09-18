@@ -1,0 +1,40 @@
+# Conceitos
+
+## Projeto de pesquisa 
+
+Sintetizando o conceito de ciência atribuido a Tales de Mileto 626/545AC e unindo ao conceito de projeto de pesquisa é possível definir algumas características:
+
+- Perguntar o porque e tentar encontrar uma resposta racional para a questão.
+- Observar, explorar e descrever os fenômenos e respostas existentes sobre o tema de interesse.
+- Usar respostas existentes e tentar reproduzir o experimento com dados atuais.
+- Registrar as etapas, procedimentos a fim de permitir reprodução posterior.
+- Concluir o experimento e descrever o valor das descobertas para sociedade, para a evolução individual e coletiva.
+- Comunicar resultados com base em algumas premissas.
+
+  - descrever a aplicação prática das descobertas no dia a dia.
+  - permitir comunicação com civilizações posteriores.
+  - permitir que estas civilizações possam utilizar o conhecimento em benefícios de suas comunidades.
+  
+  
+![Figura 1 - Etapas em um projeto de pesquisa](images/projeto_pesquisa_chart.png)
+
+## Melhoria contínua
+
+É uma busca sem fim pela melhoria e perfeição naquilo que faz. Também conhecida como Kaizen que vem do termo japonês Kai(mudança)-Zen(melhor) e segue o seguinte fluxo:
+
+- **Etapa 1**: Definir o problema. Qual o problema?
+- **Etapa 2**: Esclarecer o problema.
+- **Etapa 3**: Definir os objetivos
+- **Etapa 4**: Identificar as causas do problema
+- **Etapa 5**: Desenvolver as ações
+- **Etapa 6**: Executar as ações
+- **Etapa 7**: Avaliar os resultados
+- **Etapa 8**: Buscar por novas melhorias, ensinar e aprender fazendo. 
+
+![Figura 2 - Fluxo em um projeto de melhoria contínua](images/etapas_projeto_pesquisa_chart.png)
+
+
+
+## Termos usados no livro
+
+- **e.g** : Abreviação para `por exemplo` e vem do latin `exempli gratia`.

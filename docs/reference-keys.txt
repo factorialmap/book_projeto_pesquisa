@@ -1,0 +1,13 @@
+conceitos
+projeto-de-pesquisa
+melhoria-contínua
+termos-usados-no-livro
+demanda
+definição-do-problema-objetivo-e-metrica-de-sucesso
+dados
+ferramentas
+exploração
+modelos
+versionamento-e-reprodutibilidade
+comunicação
+aplicação

@@ -1,8 +1,16 @@
 bookdown::gitbook:
   css: style.css
+  split_by: chapter
   config:
     toc:
       before: |
-        <li><a href="./">SHORT TITLE HERE</a></li>
+        <li><a href="./">Pesquisa de melhoria contínua usando R</a></li>
       after: |
-        <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+        <li><a href="https://github.com/rstudio/bookdown" target="blank">Feito usando bookdown</a></li>
+    sharing:
+      all: ['facebook', 'twitter', 'linkedin', 'whatsapp']
+    info: false
+bookdown::pdf_book:
+  keep_text:yes
+bookdown::epub_book: default
+bookdown::bs4_book: default

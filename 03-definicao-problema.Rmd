@@ -1,0 +1,59 @@
+# Definição do problema, objetivo e metrica de sucesso
+
+## O que é {-}
+
+- Interpretação das demandas, diagnóstico de causa raiz, proposição de solução eficaz associado a uma métrica para avalição.
+
+- Etapa crítica no melhoria contínua exige trabalho em equipe preferencialente multidisciplinar porêm com apenas um foco, o problema.
+
+- Transformação dos resultados de análise dos fenômenos sob diversos pontos de vista em objetivos claros e bem definidos. (e.g. imagine um paciênte com febre e dor de cabeça, uma ação paliativa seria dar um remédio para dor de cabeça, mas com análise de hemograma identifica-se que um ataque de uma bactéria
+
+## Qual o objetivo {-}
+
+- Permitir que ações eficazes sejam tomadas
+
+- Evitar agravamento do problema causado por ações paliativas
+
+- O trabalho em equipe multidisciplinar com foco no problema pode oferecer uma visão sistemica o que pode ser muito valioso. (e.g. Sou um consultor empresarial e fixo metas para cada setor um deles o de compras de caixas. Para bater a meta dele, ele opta pelo modelo de lote economico de compra (grandes volumes, preços menores e fornecedores diferentes).
+
+
+## De onde vem {-}
+
+- Da necessidade de se beneficiar dos eventos e mudanças em curso ao invés de ser surpreendidos por eles
+
+## Como fazer {-}
+
+- O PDCA e ferramentas da qualidade são meios bastante uteis, ou pelo menos o diagrama ishikawa e o método dos 5 porquês.
+
+```{r, diagrama-ishikawa,   results=  FALSE,  fig.align='center',fig.width = 8, fig.height = 4}
+
+#pacotes usados
+library(tidyverse)
+library(qcc)
+
+#criando o diagrama de ishikawa
+cause.and.effect(cause = list(Medida   = c("Aferição","Acompanhamento","Indicador"),
+                              Material = c("Qualidade","Padronização","Entrega"),
+                              Pessoas  = c("Comunicação","Disciplina","Criatividade"),
+                              Ambiente = c("Calor","Frio","Espaço"),
+                              Metodo   = c("Procedimento","Etapas","Manuais"),
+                              Maquina  = c("Equipamento","Ferramenta","Instrumentos")),
+                 effect = c("Redução \n no Nº de \n defeitos"),
+                 title = "Diagrama de causa e efeitos",
+                 cex = c(1,.8,.8),
+                 font = c(2,1,1))
+
+
+```
+
+
+
+## Pra onde vai {-}
+
+- Com os objetivos e métricas de sucesso bem definidos e claros, o próximo passo é a ação.
+
+## Qual o resultado {-}
+
+- Clareza nas ações em busca da melhoria contínua
+
+- Transparência nos resultados, uma vez que as métricas de sucesso foram bem definidas

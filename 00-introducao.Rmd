@@ -1,0 +1,42 @@
+# Introdução {-}
+
+Este é um livro direcionado a prática e que aborda as etapas durante um projeto de pesquisa para melhoria contínua explorando temas como demanda, objetivos, dados, ferramentas, exploração, modelos, versionamento, reprodutibilidade, comunicação e aplicação.
+
+Para facilitar o entendimento dos temas abordados e das premissas que serão guias para coloboração, este livro será oganizado da seguinte forma:
+
+- **O que é**: ou qual a ideia disso que esta sendo abordado.
+- **Qual o objetivo**: pra que isso está sendo, ou foi desenvolvido.
+- **De onde vem**: são as necessidades ou a origem dessa demanda ou etapa, ou seja, a motivação.
+- **Como fazer**: é o procedimento, código, sequência ou fluxo e é importante que seja reproduzível.
+- **Pra onde vai**: é o destino. quem será o consumidor ou qual a aplicação prática.
+- **Qual o resultado**: é a descrição dos resultados esperados, desejados ou comprovados.
+
+
+## Objetivo {-}
+
+- Facilitar o entendimento dos conceitos usando linguagem simples e exemplos práticos do dia a dia.
+
+- Permitir a replicação dos experimentos usando a linguagem de computação científica R.
+
+- Explorar o conceito por traz de cada etapa com a ideia de tornar esse trabalho atemporal.
+
+
+## Motivação {-}
+
+Poder usar ferramentas tecnológicas disponíveis para potencializar as capacidades humanas na busca da melhoria contínua e conseguir transformar em oportunidades, os seguintes desafios:
+
+- **Transição demográfica** que mede a mudança histórica de taxas de natalidade, mortalidade e crescimento populacional decorrentes do avanço da medicina, urbanização e desenvolvimento de novas técnologias. 
+
+- **Tecnologias disrruptivas** instrumentos e técnicas como inteligência artificial, veículos autonomos, blockchain, impressão 3D, realidade virtual e aumentada, internet das coisas e edição genética CRISPR estão sendo aprimorados e podem modificar substancialmente o modo como as coisas são feitas.
+
+- **Atividade economica em países emergentes** em 2020 países como Indonésia, Africa do Sul, Russia, México, Malasia, Colombia, Polônia, Chile, Hingria, Tailandia, Turquia, Brasil, China e Índia são considerandos países emergentes. Boa parte desses países, têm feito progressos notáveis no fortalecimento de seus políticas macroeconômicas desde a virada do século o que os permitiu mais do que dobrar a renda per capita em média.
+
+- **Mudanças climáticas** impactam diretamente no comportamento das pessoas refletindo na demanda, nos meios de produção alterando a forma como as coisas são feitas.
+
+## Desafios de melhoria contínua {-}
+
+- Melhorar o aproveitamento de pesquisa tecnica e científica através de reprodutibilidade.
+
+- Melhorar a competitividade, qualificação e multidisciplinaridade do capital humano.
+
+- Melhorar a colaboração em pesquisas voltadas a melhoría contínua.

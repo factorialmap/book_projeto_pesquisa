@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Qual o resultado | Pesquisa de melhoria contínua usando R</title>
+  <meta name="description" content="Guia prático para pesquisas em projetos de melhoria contínua usando a ferramenta de computação científica R" />
+  <meta name="generator" content="bookdown 0.22 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Qual o resultado | Pesquisa de melhoria contínua usando R" />
+  <meta property="og:type" content="book" />
+  <meta property="og:url" content="https://factorialmap.github.io/book_projeto_pesquisa/" />
+  <meta property="og:image" content="https://factorialmap.github.io/book_projeto_pesquisa//images/pdca_capa.png" />
+  <meta property="og:description" content="Guia prático para pesquisas em projetos de melhoria contínua usando a ferramenta de computação científica R" />
+  <meta name="github-repo" content="factorialmap/book_projeto_pesquisa" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Qual o resultado | Pesquisa de melhoria contínua usando R" />
+  
+  <meta name="twitter:description" content="Guia prático para pesquisas em projetos de melhoria contínua usando a ferramenta de computação científica R" />
+  <meta name="twitter:image" content="https://factorialmap.github.io/book_projeto_pesquisa//images/pdca_capa.png" />
+
+<meta name="author" content="Marcelo Carvalho" />
+
+
+<meta name="date" content="2021-09-15" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  <link rel="apple-touch-icon-precomposed" sizes="120x120" href="touch-icon.png" />
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<link rel="prev" href="pra-onde-vai-2.html"/>
+<link rel="next" href="ferramentas.html"/>
+<script src="libs/header-attrs-2.9/header-attrs.js"></script>
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Pesquisa de melhoria contínua usando R</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Prefácio</a></li>
+<li class="chapter" data-level="" data-path="introdução.html"><a href="introdução.html"><i class="fa fa-check"></i>Introdução</a>
+<ul>
+<li class="chapter" data-level="" data-path="objetivo.html"><a href="objetivo.html"><i class="fa fa-check"></i>Objetivo</a></li>
+<li class="chapter" data-level="" data-path="motivação.html"><a href="motivação.html"><i class="fa fa-check"></i>Motivação</a></li>
+<li class="chapter" data-level="" data-path="desafios-de-melhoria-contínua.html"><a href="desafios-de-melhoria-contínua.html"><i class="fa fa-check"></i>Desafios de melhoria contínua</a></li>
+</ul></li>
+<li class="chapter" data-level="1" data-path="conceitos.html"><a href="conceitos.html"><i class="fa fa-check"></i><b>1</b> Conceitos</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="projeto-de-pesquisa.html"><a href="projeto-de-pesquisa.html"><i class="fa fa-check"></i><b>1.1</b> Projeto de pesquisa</a></li>
+<li class="chapter" data-level="1.2" data-path="melhoria-contínua.html"><a href="melhoria-contínua.html"><i class="fa fa-check"></i><b>1.2</b> Melhoria contínua</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="demanda.html"><a href="demanda.html"><i class="fa fa-check"></i><b>2</b> Demanda</a>
+<ul>
+<li class="chapter" data-level="" data-path="o-que-é.html"><a href="o-que-é.html"><i class="fa fa-check"></i>O que é</a></li>
+<li class="chapter" data-level="" data-path="qual-o-objetivo.html"><a href="qual-o-objetivo.html"><i class="fa fa-check"></i>Qual o objetivo</a></li>
+<li class="chapter" data-level="" data-path="de-onde-vem.html"><a href="de-onde-vem.html"><i class="fa fa-check"></i>De onde vem</a></li>
+<li class="chapter" data-level="" data-path="como-fazer.html"><a href="como-fazer.html"><i class="fa fa-check"></i>Como fazer</a></li>
+<li class="chapter" data-level="" data-path="pra-onde-vai.html"><a href="pra-onde-vai.html"><i class="fa fa-check"></i>Pra onde vai</a></li>
+<li class="chapter" data-level="" data-path="qual-o-resultado.html"><a href="qual-o-resultado.html"><i class="fa fa-check"></i>Qual o resultado</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="objetivos.html"><a href="objetivos.html"><i class="fa fa-check"></i><b>3</b> Objetivos</a>
+<ul>
+<li class="chapter" data-level="" data-path="o-que-é-1.html"><a href="o-que-é-1.html"><i class="fa fa-check"></i>O que é</a></li>
+<li class="chapter" data-level="" data-path="qual-o-objetivo-1.html"><a href="qual-o-objetivo-1.html"><i class="fa fa-check"></i>Qual o objetivo</a></li>
+<li class="chapter" data-level="" data-path="de-onde-vem-1.html"><a href="de-onde-vem-1.html"><i class="fa fa-check"></i>De onde vem</a></li>
+<li class="chapter" data-level="" data-path="como-fazer-1.html"><a href="como-fazer-1.html"><i class="fa fa-check"></i>Como fazer</a></li>
+<li class="chapter" data-level="" data-path="pra-onde-vai-1.html"><a href="pra-onde-vai-1.html"><i class="fa fa-check"></i>Pra onde vai</a></li>
+<li class="chapter" data-level="" data-path="qual-o-resultado-1.html"><a href="qual-o-resultado-1.html"><i class="fa fa-check"></i>Qual o resultado</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="dados.html"><a href="dados.html"><i class="fa fa-check"></i><b>4</b> Dados</a>
+<ul>
+<li class="chapter" data-level="" data-path="o-que-é-2.html"><a href="o-que-é-2.html"><i class="fa fa-check"></i>O que é</a></li>
+<li class="chapter" data-level="" data-path="qual-o-objetivo-2.html"><a href="qual-o-objetivo-2.html"><i class="fa fa-check"></i>Qual o objetivo</a></li>
+<li class="chapter" data-level="" data-path="de-onde-vem-2.html"><a href="de-onde-vem-2.html"><i class="fa fa-check"></i>De onde vem</a></li>
+<li class="chapter" data-level="" data-path="como-fazer-2.html"><a href="como-fazer-2.html"><i class="fa fa-check"></i>Como fazer</a></li>
+<li class="chapter" data-level="" data-path="pra-onde-vai-2.html"><a href="pra-onde-vai-2.html"><i class="fa fa-check"></i>Pra onde vai</a></li>
+<li class="chapter" data-level="" data-path="qual-o-resultado-2.html"><a href="qual-o-resultado-2.html"><i class="fa fa-check"></i>Qual o resultado</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="ferramentas.html"><a href="ferramentas.html"><i class="fa fa-check"></i><b>5</b> Ferramentas</a>
+<ul>
+<li class="chapter" data-level="" data-path="o-que-é-3.html"><a href="o-que-é-3.html"><i class="fa fa-check"></i>O que é</a></li>
+<li class="chapter" data-level="" data-path="qual-o-objetivo-3.html"><a href="qual-o-objetivo-3.html"><i class="fa fa-check"></i>Qual o objetivo</a></li>
+<li class="chapter" data-level="" data-path="de-onde-vem-3.html"><a href="de-onde-vem-3.html"><i class="fa fa-check"></i>De onde vem</a></li>
+<li class="chapter" data-level="" data-path="como-fazer-3.html"><a href="como-fazer-3.html"><i class="fa fa-check"></i>Como fazer</a></li>
+<li class="chapter" data-level="" data-path="pra-onde-vai-3.html"><a href="pra-onde-vai-3.html"><i class="fa fa-check"></i>Pra onde vai</a></li>
+<li class="chapter" data-level="" data-path="qual-o-resultado-3.html"><a href="qual-o-resultado-3.html"><i class="fa fa-check"></i>Qual o resultado</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="exploração.html"><a href="exploração.html"><i class="fa fa-check"></i><b>6</b> Exploração</a>
+<ul>
+<li class="chapter" data-level="" data-path="o-que-é-4.html"><a href="o-que-é-4.html"><i class="fa fa-check"></i>O que é</a></li>
+<li class="chapter" data-level="" data-path="qual-o-objetivo-4.html"><a href="qual-o-objetivo-4.html"><i class="fa fa-check"></i>Qual o objetivo</a></li>
+<li class="chapter" data-level="" data-path="de-onde-vem-4.html"><a href="de-onde-vem-4.html"><i class="fa fa-check"></i>De onde vem</a></li>
+<li class="chapter" data-level="" data-path="como-fazer-4.html"><a href="como-fazer-4.html"><i class="fa fa-check"></i>Como fazer</a></li>
+<li class="chapter" data-level="" data-path="pra-onde-vai-4.html"><a href="pra-onde-vai-4.html"><i class="fa fa-check"></i>Pra onde vai</a></li>
+<li class="chapter" data-level="" data-path="qual-o-resultado-4.html"><a href="qual-o-resultado-4.html"><i class="fa fa-check"></i>Qual o resultado</a></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="modelos.html"><a href="modelos.html"><i class="fa fa-check"></i><b>7</b> Modelos</a>
+<ul>
+<li class="chapter" data-level="" data-path="o-que-é-5.html"><a href="o-que-é-5.html"><i class="fa fa-check"></i>O que é</a></li>
+<li class="chapter" data-level="" data-path="qual-o-objetivo-5.html"><a href="qual-o-objetivo-5.html"><i class="fa fa-check"></i>Qual o objetivo</a></li>
+<li class="chapter" data-level="" data-path="de-onde-vem-5.html"><a href="de-onde-vem-5.html"><i class="fa fa-check"></i>De onde vem</a></li>
+<li class="chapter" data-level="" data-path="como-fazer-5.html"><a href="como-fazer-5.html"><i class="fa fa-check"></i>Como fazer</a></li>
+<li class="chapter" data-level="" data-path="pra-onde-vai-5.html"><a href="pra-onde-vai-5.html"><i class="fa fa-check"></i>Pra onde vai</a></li>
+<li class="chapter" data-level="" data-path="qual-o-resultado-5.html"><a href="qual-o-resultado-5.html"><i class="fa fa-check"></i>Qual o resultado</a></li>
+</ul></li>
+<li class="chapter" data-level="8" data-path="versionamento-e-reprodutibilidade.html"><a href="versionamento-e-reprodutibilidade.html"><i class="fa fa-check"></i><b>8</b> Versionamento e Reprodutibilidade</a>
+<ul>
+<li class="chapter" data-level="" data-path="o-que-é-6.html"><a href="o-que-é-6.html"><i class="fa fa-check"></i>O que é</a></li>
+<li class="chapter" data-level="" data-path="qual-o-objetivo-6.html"><a href="qual-o-objetivo-6.html"><i class="fa fa-check"></i>Qual o objetivo</a></li>
+<li class="chapter" data-level="" data-path="de-onde-vem-6.html"><a href="de-onde-vem-6.html"><i class="fa fa-check"></i>De onde vem</a></li>
+<li class="chapter" data-level="" data-path="como-fazer-6.html"><a href="como-fazer-6.html"><i class="fa fa-check"></i>Como fazer</a></li>
+<li class="chapter" data-level="" data-path="pra-onde-vai-6.html"><a href="pra-onde-vai-6.html"><i class="fa fa-check"></i>Pra onde vai</a></li>
+<li class="chapter" data-level="" data-path="qual-o-resultado-6.html"><a href="qual-o-resultado-6.html"><i class="fa fa-check"></i>Qual o resultado</a></li>
+</ul></li>
+<li class="chapter" data-level="9" data-path="comunicação.html"><a href="comunicação.html"><i class="fa fa-check"></i><b>9</b> Comunicação</a>
+<ul>
+<li class="chapter" data-level="" data-path="o-que-é-7.html"><a href="o-que-é-7.html"><i class="fa fa-check"></i>O que é</a></li>
+<li class="chapter" data-level="" data-path="qual-o-objetivo-7.html"><a href="qual-o-objetivo-7.html"><i class="fa fa-check"></i>Qual o objetivo</a></li>
+<li class="chapter" data-level="" data-path="de-onde-vem-7.html"><a href="de-onde-vem-7.html"><i class="fa fa-check"></i>De onde vem</a></li>
+<li class="chapter" data-level="" data-path="como-fazer-7.html"><a href="como-fazer-7.html"><i class="fa fa-check"></i>Como fazer</a></li>
+<li class="chapter" data-level="" data-path="pra-onde-vai-7.html"><a href="pra-onde-vai-7.html"><i class="fa fa-check"></i>Pra onde vai</a></li>
+<li class="chapter" data-level="" data-path="qual-o-resultado-7.html"><a href="qual-o-resultado-7.html"><i class="fa fa-check"></i>Qual o resultado</a></li>
+</ul></li>
+<li class="chapter" data-level="10" data-path="aplicação.html"><a href="aplicação.html"><i class="fa fa-check"></i><b>10</b> Aplicação</a>
+<ul>
+<li class="chapter" data-level="" data-path="o-que-é-8.html"><a href="o-que-é-8.html"><i class="fa fa-check"></i>O que é</a></li>
+<li class="chapter" data-level="" data-path="qual-o-objetivo-8.html"><a href="qual-o-objetivo-8.html"><i class="fa fa-check"></i>Qual o objetivo</a></li>
+<li class="chapter" data-level="" data-path="de-onde-vem-8.html"><a href="de-onde-vem-8.html"><i class="fa fa-check"></i>De onde vem</a></li>
+<li class="chapter" data-level="" data-path="como-fazer-8.html"><a href="como-fazer-8.html"><i class="fa fa-check"></i>Como fazer</a></li>
+<li class="chapter" data-level="" data-path="pra-onde-vai-8.html"><a href="pra-onde-vai-8.html"><i class="fa fa-check"></i>Pra onde vai</a></li>
+<li class="chapter" data-level="" data-path="qual-o-resultado-8.html"><a href="qual-o-resultado-8.html"><i class="fa fa-check"></i>Qual o resultado</a></li>
+</ul></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Feito usando bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Pesquisa de melhoria contínua usando R</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="qual-o-resultado-2" class="section level2 unnumbered">
+<h2>Qual o resultado</h2>
+<ul>
+<li>A</li>
+<li>B</li>
+<li>C</li>
+</ul>
+
+</div>
+<!-- </div> -->
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="pra-onde-vai-2.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="ferramentas.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "whatsapp"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/factorialmap/book_projeto_pesquisa/edit/master/05-dados.Rmd",
+"text": "Edit"
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["bookdownproj.pdf", "bookdownproj.mobi"],
+"toc": {
+"collapse": "subsection"
+},
+"info": false
+});
+});
+</script>
+
+</body>
+
+</html>

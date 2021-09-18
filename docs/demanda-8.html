@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Capitulo 9 Demanda | Projeto de pesquisa reproduzível usando R</title>
+  <meta name="description" content="Guia prático de r para projetos de pesquisa" />
+  <meta name="generator" content="bookdown 0.22 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Capitulo 9 Demanda | Projeto de pesquisa reproduzível usando R" />
+  <meta property="og:type" content="book" />
+  <meta property="og:url" content="https://factorialmap.github.io/book_projeto_pesquisa/" />
+  <meta property="og:image" content="https://factorialmap.github.io/book_projeto_pesquisa//images/projeto_pesquisa_capa.png" />
+  <meta property="og:description" content="Guia prático de r para projetos de pesquisa" />
+  <meta name="github-repo" content="factorialmap/book_projeto_pesquisa" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Capitulo 9 Demanda | Projeto de pesquisa reproduzível usando R" />
+  
+  <meta name="twitter:description" content="Guia prático de r para projetos de pesquisa" />
+  <meta name="twitter:image" content="https://factorialmap.github.io/book_projeto_pesquisa//images/projeto_pesquisa_capa.png" />
+
+<meta name="author" content="Marcelo Carvalho" />
+
+
+<meta name="date" content="2021-09-12" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  <link rel="apple-touch-icon-precomposed" sizes="120x120" href="touch-icon.png" />
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<link rel="prev" href="demanda-7.html"/>
+<link rel="next" href="demanda-9.html"/>
+<script src="libs/header-attrs-2.9/header-attrs.js"></script>
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Projeto de pesquisa reproduzível usando R</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Prefácio</a></li>
+<li class="chapter" data-level="" data-path="introdução.html"><a href="introdução.html"><i class="fa fa-check"></i>Introdução</a>
+<ul>
+<li class="chapter" data-level="" data-path="introdução.html"><a href="introdução.html#objetivo"><i class="fa fa-check"></i>Objetivo</a></li>
+<li class="chapter" data-level="" data-path="introdução.html"><a href="introdução.html#motivação"><i class="fa fa-check"></i>Motivação</a></li>
+<li class="chapter" data-level="" data-path="introdução.html"><a href="introdução.html#desafios-da-area-de-pesquisa"><i class="fa fa-check"></i>Desafios da area de pesquisa</a></li>
+</ul></li>
+<li class="chapter" data-level="1" data-path="demanda.html"><a href="demanda.html"><i class="fa fa-check"></i><b>1</b> Demanda</a>
+<ul>
+<li class="chapter" data-level="" data-path="demanda.html"><a href="demanda.html#o-que-é"><i class="fa fa-check"></i>O que é</a></li>
+<li class="chapter" data-level="" data-path="demanda.html"><a href="demanda.html#qual-o-objetivo"><i class="fa fa-check"></i>Qual o objetivo</a></li>
+<li class="chapter" data-level="" data-path="demanda.html"><a href="demanda.html#de-onde-vem"><i class="fa fa-check"></i>De onde vem</a></li>
+<li class="chapter" data-level="" data-path="demanda.html"><a href="demanda.html#como-fazer"><i class="fa fa-check"></i>Como fazer</a></li>
+<li class="chapter" data-level="" data-path="demanda.html"><a href="demanda.html#pra-onde-vai"><i class="fa fa-check"></i>Pra onde vai</a></li>
+<li class="chapter" data-level="" data-path="demanda.html"><a href="demanda.html#qual-o-resultado"><i class="fa fa-check"></i>Qual o resultado</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="demanda-1.html"><a href="demanda-1.html"><i class="fa fa-check"></i><b>2</b> Demanda</a>
+<ul>
+<li class="chapter" data-level="" data-path="demanda-1.html"><a href="demanda-1.html#o-que-é-1"><i class="fa fa-check"></i>O que é</a></li>
+<li class="chapter" data-level="" data-path="demanda-1.html"><a href="demanda-1.html#qual-o-objetivo-1"><i class="fa fa-check"></i>Qual o objetivo</a></li>
+<li class="chapter" data-level="" data-path="demanda-1.html"><a href="demanda-1.html#de-onde-vem-1"><i class="fa fa-check"></i>De onde vem</a></li>
+<li class="chapter" data-level="" data-path="demanda-1.html"><a href="demanda-1.html#como-fazer-1"><i class="fa fa-check"></i>Como fazer</a></li>
+<li class="chapter" data-level="" data-path="demanda-1.html"><a href="demanda-1.html#pra-onde-vai-1"><i class="fa fa-check"></i>Pra onde vai</a></li>
+<li class="chapter" data-level="" data-path="demanda-1.html"><a href="demanda-1.html#qual-o-resultado-1"><i class="fa fa-check"></i>Qual o resultado</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="demanda-2.html"><a href="demanda-2.html"><i class="fa fa-check"></i><b>3</b> Demanda</a>
+<ul>
+<li class="chapter" data-level="" data-path="demanda-2.html"><a href="demanda-2.html#o-que-é-2"><i class="fa fa-check"></i>O que é</a></li>
+<li class="chapter" data-level="" data-path="demanda-2.html"><a href="demanda-2.html#qual-o-objetivo-2"><i class="fa fa-check"></i>Qual o objetivo</a></li>
+<li class="chapter" data-level="" data-path="demanda-2.html"><a href="demanda-2.html#de-onde-vem-2"><i class="fa fa-check"></i>De onde vem</a></li>
+<li class="chapter" data-level="" data-path="demanda-2.html"><a href="demanda-2.html#como-fazer-2"><i class="fa fa-check"></i>Como fazer</a></li>
+<li class="chapter" data-level="" data-path="demanda-2.html"><a href="demanda-2.html#pra-onde-vai-2"><i class="fa fa-check"></i>Pra onde vai</a></li>
+<li class="chapter" data-level="" data-path="demanda-2.html"><a href="demanda-2.html#qual-o-resultado-2"><i class="fa fa-check"></i>Qual o resultado</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="demanda-3.html"><a href="demanda-3.html"><i class="fa fa-check"></i><b>4</b> Demanda</a>
+<ul>
+<li class="chapter" data-level="" data-path="demanda-3.html"><a href="demanda-3.html#o-que-é-3"><i class="fa fa-check"></i>O que é</a></li>
+<li class="chapter" data-level="" data-path="demanda-3.html"><a href="demanda-3.html#qual-o-objetivo-3"><i class="fa fa-check"></i>Qual o objetivo</a></li>
+<li class="chapter" data-level="" data-path="demanda-3.html"><a href="demanda-3.html#de-onde-vem-3"><i class="fa fa-check"></i>De onde vem</a></li>
+<li class="chapter" data-level="" data-path="demanda-3.html"><a href="demanda-3.html#como-fazer-3"><i class="fa fa-check"></i>Como fazer</a></li>
+<li class="chapter" data-level="" data-path="demanda-3.html"><a href="demanda-3.html#pra-onde-vai-3"><i class="fa fa-check"></i>Pra onde vai</a></li>
+<li class="chapter" data-level="" data-path="demanda-3.html"><a href="demanda-3.html#qual-o-resultado-3"><i class="fa fa-check"></i>Qual o resultado</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="demanda-4.html"><a href="demanda-4.html"><i class="fa fa-check"></i><b>5</b> Demanda</a>
+<ul>
+<li class="chapter" data-level="" data-path="demanda-4.html"><a href="demanda-4.html#o-que-é-4"><i class="fa fa-check"></i>O que é</a></li>
+<li class="chapter" data-level="" data-path="demanda-4.html"><a href="demanda-4.html#qual-o-objetivo-4"><i class="fa fa-check"></i>Qual o objetivo</a></li>
+<li class="chapter" data-level="" data-path="demanda-4.html"><a href="demanda-4.html#de-onde-vem-4"><i class="fa fa-check"></i>De onde vem</a></li>
+<li class="chapter" data-level="" data-path="demanda-4.html"><a href="demanda-4.html#como-fazer-4"><i class="fa fa-check"></i>Como fazer</a></li>
+<li class="chapter" data-level="" data-path="demanda-4.html"><a href="demanda-4.html#pra-onde-vai-4"><i class="fa fa-check"></i>Pra onde vai</a></li>
+<li class="chapter" data-level="" data-path="demanda-4.html"><a href="demanda-4.html#qual-o-resultado-4"><i class="fa fa-check"></i>Qual o resultado</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="demanda-5.html"><a href="demanda-5.html"><i class="fa fa-check"></i><b>6</b> Demanda</a>
+<ul>
+<li class="chapter" data-level="" data-path="demanda-5.html"><a href="demanda-5.html#o-que-é-5"><i class="fa fa-check"></i>O que é</a></li>
+<li class="chapter" data-level="" data-path="demanda-5.html"><a href="demanda-5.html#qual-o-objetivo-5"><i class="fa fa-check"></i>Qual o objetivo</a></li>
+<li class="chapter" data-level="" data-path="demanda-5.html"><a href="demanda-5.html#de-onde-vem-5"><i class="fa fa-check"></i>De onde vem</a></li>
+<li class="chapter" data-level="" data-path="demanda-5.html"><a href="demanda-5.html#como-fazer-5"><i class="fa fa-check"></i>Como fazer</a></li>
+<li class="chapter" data-level="" data-path="demanda-5.html"><a href="demanda-5.html#pra-onde-vai-5"><i class="fa fa-check"></i>Pra onde vai</a></li>
+<li class="chapter" data-level="" data-path="demanda-5.html"><a href="demanda-5.html#qual-o-resultado-5"><i class="fa fa-check"></i>Qual o resultado</a></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="demanda-6.html"><a href="demanda-6.html"><i class="fa fa-check"></i><b>7</b> Demanda</a>
+<ul>
+<li class="chapter" data-level="" data-path="demanda-6.html"><a href="demanda-6.html#o-que-é-6"><i class="fa fa-check"></i>O que é</a></li>
+<li class="chapter" data-level="" data-path="demanda-6.html"><a href="demanda-6.html#qual-o-objetivo-6"><i class="fa fa-check"></i>Qual o objetivo</a></li>
+<li class="chapter" data-level="" data-path="demanda-6.html"><a href="demanda-6.html#de-onde-vem-6"><i class="fa fa-check"></i>De onde vem</a></li>
+<li class="chapter" data-level="" data-path="demanda-6.html"><a href="demanda-6.html#como-fazer-6"><i class="fa fa-check"></i>Como fazer</a></li>
+<li class="chapter" data-level="" data-path="demanda-6.html"><a href="demanda-6.html#pra-onde-vai-6"><i class="fa fa-check"></i>Pra onde vai</a></li>
+<li class="chapter" data-level="" data-path="demanda-6.html"><a href="demanda-6.html#qual-o-resultado-6"><i class="fa fa-check"></i>Qual o resultado</a></li>
+</ul></li>
+<li class="chapter" data-level="8" data-path="demanda-7.html"><a href="demanda-7.html"><i class="fa fa-check"></i><b>8</b> Demanda</a>
+<ul>
+<li class="chapter" data-level="" data-path="demanda-7.html"><a href="demanda-7.html#o-que-é-7"><i class="fa fa-check"></i>O que é</a></li>
+<li class="chapter" data-level="" data-path="demanda-7.html"><a href="demanda-7.html#qual-o-objetivo-7"><i class="fa fa-check"></i>Qual o objetivo</a></li>
+<li class="chapter" data-level="" data-path="demanda-7.html"><a href="demanda-7.html#de-onde-vem-7"><i class="fa fa-check"></i>De onde vem</a></li>
+<li class="chapter" data-level="" data-path="demanda-7.html"><a href="demanda-7.html#como-fazer-7"><i class="fa fa-check"></i>Como fazer</a></li>
+<li class="chapter" data-level="" data-path="demanda-7.html"><a href="demanda-7.html#pra-onde-vai-7"><i class="fa fa-check"></i>Pra onde vai</a></li>
+<li class="chapter" data-level="" data-path="demanda-7.html"><a href="demanda-7.html#qual-o-resultado-7"><i class="fa fa-check"></i>Qual o resultado</a></li>
+</ul></li>
+<li class="chapter" data-level="9" data-path="demanda-8.html"><a href="demanda-8.html"><i class="fa fa-check"></i><b>9</b> Demanda</a>
+<ul>
+<li class="chapter" data-level="" data-path="demanda-8.html"><a href="demanda-8.html#o-que-é-8"><i class="fa fa-check"></i>O que é</a></li>
+<li class="chapter" data-level="" data-path="demanda-8.html"><a href="demanda-8.html#qual-o-objetivo-8"><i class="fa fa-check"></i>Qual o objetivo</a></li>
+<li class="chapter" data-level="" data-path="demanda-8.html"><a href="demanda-8.html#de-onde-vem-8"><i class="fa fa-check"></i>De onde vem</a></li>
+<li class="chapter" data-level="" data-path="demanda-8.html"><a href="demanda-8.html#como-fazer-8"><i class="fa fa-check"></i>Como fazer</a></li>
+<li class="chapter" data-level="" data-path="demanda-8.html"><a href="demanda-8.html#pra-onde-vai-8"><i class="fa fa-check"></i>Pra onde vai</a></li>
+<li class="chapter" data-level="" data-path="demanda-8.html"><a href="demanda-8.html#qual-o-resultado-8"><i class="fa fa-check"></i>Qual o resultado</a></li>
+</ul></li>
+<li class="chapter" data-level="10" data-path="demanda-9.html"><a href="demanda-9.html"><i class="fa fa-check"></i><b>10</b> Demanda</a>
+<ul>
+<li class="chapter" data-level="" data-path="demanda-9.html"><a href="demanda-9.html#o-que-é-9"><i class="fa fa-check"></i>O que é</a></li>
+<li class="chapter" data-level="" data-path="demanda-9.html"><a href="demanda-9.html#qual-o-objetivo-9"><i class="fa fa-check"></i>Qual o objetivo</a></li>
+<li class="chapter" data-level="" data-path="demanda-9.html"><a href="demanda-9.html#de-onde-vem-9"><i class="fa fa-check"></i>De onde vem</a></li>
+<li class="chapter" data-level="" data-path="demanda-9.html"><a href="demanda-9.html#como-fazer-9"><i class="fa fa-check"></i>Como fazer</a></li>
+<li class="chapter" data-level="" data-path="demanda-9.html"><a href="demanda-9.html#pra-onde-vai-9"><i class="fa fa-check"></i>Pra onde vai</a></li>
+<li class="chapter" data-level="" data-path="demanda-9.html"><a href="demanda-9.html#qual-o-resultado-9"><i class="fa fa-check"></i>Qual o resultado</a></li>
+</ul></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Feito usando bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Projeto de pesquisa reproduzível usando R</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="demanda-8" class="section level1" number="9">
+<h1><span class="header-section-number">Capitulo 9</span> Demanda</h1>
+<div id="o-que-é-8" class="section level2 unnumbered">
+<h2>O que é</h2>
+</div>
+<div id="qual-o-objetivo-8" class="section level2 unnumbered">
+<h2>Qual o objetivo</h2>
+<ul>
+<li>A</li>
+<li>B</li>
+<li>C</li>
+</ul>
+</div>
+<div id="de-onde-vem-8" class="section level2 unnumbered">
+<h2>De onde vem</h2>
+<ul>
+<li>A</li>
+<li>B</li>
+<li>C</li>
+</ul>
+</div>
+<div id="como-fazer-8" class="section level2 unnumbered">
+<h2>Como fazer</h2>
+<ul>
+<li>A</li>
+<li>B</li>
+<li>C</li>
+</ul>
+</div>
+<div id="pra-onde-vai-8" class="section level2 unnumbered">
+<h2>Pra onde vai</h2>
+<ul>
+<li>A</li>
+<li>B</li>
+<li>C</li>
+</ul>
+</div>
+<div id="qual-o-resultado-8" class="section level2 unnumbered">
+<h2>Qual o resultado</h2>
+<ul>
+<li>A</li>
+<li>B</li>
+<li>C</li>
+</ul>
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="demanda-7.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="demanda-9.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "whatsapp"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/factorialmap/book_projeto_pesquisa/edit/master/10-comunicacao.Rmd",
+"text": "Edit"
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["bookdownproj.pdf", "bookdownproj.mobi"],
+"toc": {
+"collapse": "subsection"
+},
+"info": false
+});
+});
+</script>
+
+</body>
+
+</html>
