@@ -2,25 +2,21 @@
 
 ## Projeto de pesquisa 
 
-Sintetizando o conceito de ciência atribuido a Tales de Mileto 626/545AC e unindo ao conceito de projeto de pesquisa é possível definir algumas características:
+Buscando explorar os aspectos práticos, busquei sintetizar o conceito de ciência atribuido a Tales de Mileto 650AC associado ao conceito de projeto de pesquisa onde é possível observar algumas características:
 
 - Perguntar o porque e tentar encontrar uma resposta racional para a questão.
-- Observar, explorar e descrever os fenômenos e respostas existentes sobre o tema de interesse.
-- Usar respostas existentes e tentar reproduzir o experimento com dados atuais.
-- Registrar as etapas, procedimentos a fim de permitir reprodução posterior.
+- Observar, explorar, descrever, analisar os fenômenos e fatos existentes sob diversos pontos de vista.
+- Usar os fatos existentes e tentar reproduzir o experimento com novos dados.
+- Registrar as etapas e procedimentos a fim de permitir a reprodução posterior.
 - Concluir o experimento e descrever o valor das descobertas para sociedade, para a evolução individual e coletiva.
-- Comunicar resultados com base em algumas premissas.
+- Comunicar resultados descrevendo a aplicação prática das descobertas, possibilitar a comunicação do conhecimento com civilizações posteriores e que estas possam usar esse conhecimento em benefícios de suas comunidades.
 
-  - descrever a aplicação prática das descobertas no dia a dia.
-  - permitir comunicação com civilizações posteriores.
-  - permitir que estas civilizações possam utilizar o conhecimento em benefícios de suas comunidades.
-  
-  
-![Figura 1 - Etapas em um projeto de pesquisa](images/projeto_pesquisa_chart.png)
+
+![Figura 1 - Etapas em um projeto de pesquisa de melhoria contínua](images/projeto_pesquisa_chart.png)
 
 ## Melhoria contínua
 
-É uma busca sem fim pela melhoria e perfeição naquilo que faz. Também conhecida como Kaizen que vem do termo japonês Kai(mudança)-Zen(melhor) e segue o seguinte fluxo:
+É uma busca sem fim pela melhoria e aperfeiçoamento naquilo que faz. Também conhecida como **Kaizen** que vem do termo japonês **Kai(mudança)-Zen(melhor)** o qual segue o seguinte fluxo:
 
 - **Etapa 1**: Definir o problema. Qual o problema?
 - **Etapa 2**: Esclarecer o problema.
@@ -37,4 +33,8 @@ Sintetizando o conceito de ciência atribuido a Tales de Mileto 626/545AC e unin
 
 ## Termos usados no livro
 
-- **e.g** : Abreviação para `por exemplo` e vem do latin `exempli gratia`.
+- **e.g** é uma abreviação para a palavra **por exemplo** e vem do latin **exempli gratia**.
+- **PDCA** é um método de análise e solução de problemas. 
+- **modelo preditivo** é o nome em estatística para **machine learning** em ciência da computação.
+- **pré processamento** é o nome em estatística para **feature engineering** em ciência da computação.
+- **tidyverse** é um pacote em R que ajuda na importação, arrumação, visualização e demais trabalhos com dados.

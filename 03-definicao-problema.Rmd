@@ -6,7 +6,7 @@
 
 - Etapa crítica no melhoria contínua exige trabalho em equipe preferencialente multidisciplinar porêm com apenas um foco, o problema.
 
-- Transformação dos resultados de análise dos fenômenos sob diversos pontos de vista em objetivos claros e bem definidos. (e.g. imagine um paciênte com febre e dor de cabeça, uma ação paliativa seria dar um remédio para dor de cabeça, mas com análise de hemograma identifica-se que um ataque de uma bactéria
+- Transformação dos resultados de análise dos fenômenos sob diversos pontos de vista em objetivos claros e bem definidos. Por exemplo: Imagine um paciênte com febre e dor de cabeça. Uma ação paliativa seria dar um remédio para dor de cabeça, mas uma análise de hemograma pode identificar que a dor de cabeça e febre são sintomas reativos do corpo que está sob ataque de uma bactéria gran positiva, a febre aumenta a temperatura que estimula os neutrófilos grudados nas paredas das artérias a cair na circulação para atacar o foco infeccioso. Estas análises ajudam na proposição de ações eficazes.
 
 ## Qual o objetivo {-}
 
@@ -14,7 +14,9 @@
 
 - Evitar agravamento do problema causado por ações paliativas
 
-- O trabalho em equipe multidisciplinar com foco no problema pode oferecer uma visão sistemica o que pode ser muito valioso. (e.g. Sou um consultor empresarial e fixo metas para cada setor um deles o de compras de caixas. Para bater a meta dele, ele opta pelo modelo de lote economico de compra (grandes volumes, preços menores e fornecedores diferentes).
+- O trabalho em equipe multidisciplinar com foco no problema pode oferecer uma visão sistemica o que pode ser muito valioso.Vamos para um exemplo de necessidade de visão sistemica. 
+
+Imagine que sou um consultor empresarial e fixo metas para cada setor. Um deles, o de compras de caixas, para bater sua meta opta pelo modelo de lote economico de compra baseado em preço onde se compra grandes volumes com preços menores e fornecedores diversos. Como as caixas vem de vários fornecedores, elas possuem variações de tamanho, espessura e angulo. Ao colocar as caixas na montadora automática de caixas, a variação provoca desgaste excessivo de ventosas acabando com o estoque da peça e fazendo a maquina parar. A parada da maquina atraza da produção que aloca mão de obra para outros atividades prejudicando drasticamente a produtivdade global.
 
 
 ## De onde vem {-}

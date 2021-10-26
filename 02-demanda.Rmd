@@ -2,7 +2,7 @@
 
 ## O que é {-}
 
-- É uma manifestação de uma necessidade a qual provoca e estimula o processo de melhoria contínua.
+- É uma manifestação de necessidades desencadeada por fenômenos associados. Esta por sua vez provoca e estimula o processo de melhoria contínua. Por exemplo: O fenômeno envelhecimento da população, desencadeia necessidades de mudanças no sistemas previdenciários, educacional e de saúde em um país. Esta necessidade por sua, vez provoca e estimula o processo de melhoria contínua desses sistemas transformando um possível colapso no futuro em oportunidades.
 
 - Geralmente é apresentada como um resumo de várias conversas, consultas e análises com envolvidos no mesmo tema ou interesse.
 
@@ -10,12 +10,13 @@
 
 - Tende a permitir a interpretação nos dois sentidos por exemplo se tenho uma solução já existente, ela existe pra cumprir qual demanada? ou se eu tenho uma determinanda demanda, que tipo de solução poderia atendê-la?.
 
-- O ambiente, um fator importante  na geração de demanda, não será discutido nesse livro, no entanto deixo para a reflexão do leitor questionar-se quais fatores ambientais permitiram que a Mesopotamia(4000AC), Egito(331AC), Grécia(444AC), Roma(117), Florença(1350) e Holanda(1600) atraissem e concentrassem um número expressivo de mentes brilhantes, boas ideias e inovações e que posteriormente foram utilizadas no mundo todo.
-
 
 ## Qual o objetivo {-}
 
-- Auxiliar no desenvolvimento e evolução das sociedades
+- Estimular a interação entre a mente, o ambiente e as coisas existentes, possibilitando a criação de novas coisas.
+
+- Auxiliar no desenvolvimento e evolução das sociedades.
+
 
 ## De onde vem {-}
 
@@ -28,6 +29,8 @@
 - Desenvolvimento acelerado de países emergentes(e.g. infraestrutura, serviços médicos etc)
 
 - Interação entre as pessoas (e.g. feiras, eventos, práticas de comércio entre países)
+
+- O ambiente, é um fator importante  na geração de demanda mas não será discutido nesse livro, no entanto deixo para a reflexão do leitor questionar-se que fatores ambientais foram importantes para que a Mesopotamia-Iraque(3500AC), Egito(331AC), Grécia(444AC), Roma(117), Florença(1350) e Holanda(1600) atraissem e concentrassem um número expressivo de mentes brilhantes, boas ideias e inovações que posteriormente foram usadas no mundo todo?
 
 ## Como fazer {-}
 
