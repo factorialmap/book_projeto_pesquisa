@@ -21,5 +21,5 @@ Neste livro o leitor encontrará boa parte das etapas existentes em um projeto d
 
 As etapas serão exploradas permitindo que o leitor consiga compreender e reproduzir os conceitos, conjuntos de dados e códigos presentes no livro em suas pesquisas e experimentos.
 
-Agradeço a todos que contribuíram em discussões sobre formatos, experiências para o leitor, com comentários, erros de digitação e outras formas que ajudaram e ajudam a enriquecer o desenvolvimento desse livro. 
+Agradeço a todos que contribuíram em discussões sobre formatos, experiências para o leitor, com comentários, erros de digitação e outras formas que ajudaram a enriquecer o desenvolvimento desse livro. 
 Os contribuidores a partir de 01 de setembro de 2020 Sheilaback, @paulinyzito, @Muxtaa, FlávioCorrêa
