@@ -25,7 +25,10 @@ Imagine que sou um consultor empresarial e fixo metas para cada setor. Um deles,
 
 ## Como fazer {-}
 
-- O PDCA e ferramentas da qualidade são meios bastante uteis, ou pelo menos o diagrama ishikawa e o método dos 5 porquês.
+- O PDCA e ferramentas da qualidade são meios bastante uteis
+
+
+- O diagrama ishikawa 
 
 ```{r, diagrama-ishikawa,   results=  FALSE,  fig.align='center',fig.width = 8, fig.height = 4}
 
@@ -48,6 +51,7 @@ cause.and.effect(cause = list(Medida   = c("Aferição","Acompanhamento","Indica
 
 ```
 
+- O método dos 5 porquês.
 
 
 ## Pra onde vai {-}

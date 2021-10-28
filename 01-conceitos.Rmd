@@ -2,21 +2,21 @@
 
 ## Projeto de pesquisa 
 
-Buscando explorar os aspectos práticos, busquei sintetizar o conceito de ciência atribuido a Tales de Mileto 650AC associado ao conceito de projeto de pesquisa onde é possível observar algumas características:
+Explorando os aspectos práticos, busquei sintetizar o conceito de ciência atribuido a Tales de Mileto 650AC ao projeto de pesquisa de melhoria contínua onde é possível observar algumas características:
 
 - Perguntar o porque e tentar encontrar uma resposta racional para a questão.
-- Observar, explorar, descrever, analisar os fenômenos e fatos existentes sob diversos pontos de vista.
-- Usar os fatos existentes e tentar reproduzir o experimento com novos dados.
-- Registrar as etapas e procedimentos a fim de permitir a reprodução posterior.
-- Concluir o experimento e descrever o valor das descobertas para sociedade, para a evolução individual e coletiva.
-- Comunicar resultados descrevendo a aplicação prática das descobertas, possibilitar a comunicação do conhecimento com civilizações posteriores e que estas possam usar esse conhecimento em benefícios de suas comunidades.
+- Observar, explorar, descrever e analisar fenômenos e fatos existentes sob diversos pontos de vista.
+- Usar fatos existentes e tentar reproduzir o experimento com novos dados.
+- Registrar etapas e procedimentos a fim de permitir a reprodução posterior.
+- Ao concluir o experimento, descrever o valor das descobertas para sociedade.
+- Comunicar os resultados, a aplicação prática das descobertas e possibilitar que esses possam ser compreendidas por civilizações posteriores e que estas, possam usar esse conhecimento em benefícios de suas comunidades.
 
 
 ![Figura 1 - Etapas em um projeto de pesquisa de melhoria contínua](images/projeto_pesquisa_chart.png)
 
 ## Melhoria contínua
 
-É uma busca sem fim pela melhoria e aperfeiçoamento naquilo que faz. Também conhecida como **Kaizen** que vem do termo japonês **Kai(mudança)-Zen(melhor)** o qual segue o seguinte fluxo:
+É a busca sem fim pela melhoria e aperfeiçoamento naquilo que faz. Também conhecida como **Kaizen** que vem do termo japonês **Kai(mudança)-Zen(melhor)** o qual segue o seguinte fluxo:
 
 - **Etapa 1**: Definir o problema. Qual o problema?
 - **Etapa 2**: Esclarecer o problema.

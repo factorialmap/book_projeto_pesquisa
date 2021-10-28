@@ -24,7 +24,7 @@
 <meta name="author" content="Marcelo Carvalho" />
 
 
-<meta name="date" content="2021-10-25" />
+<meta name="date" content="2021-10-27" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -142,7 +142,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <ul>
 <li class="chapter" data-level="" data-path="introdução.html"><a href="introdução.html#objetivo"><i class="fa fa-check"></i>Objetivo</a></li>
 <li class="chapter" data-level="" data-path="introdução.html"><a href="introdução.html#motivação"><i class="fa fa-check"></i>Motivação</a></li>
-<li class="chapter" data-level="" data-path="introdução.html"><a href="introdução.html#desafios-da-melhoria-contínua"><i class="fa fa-check"></i>Desafios da melhoria contínua</a></li>
+<li class="chapter" data-level="" data-path="introdução.html"><a href="introdução.html#desafios-de-melhoria-contínua"><i class="fa fa-check"></i>Desafios de melhoria contínua</a></li>
 </ul></li>
 <li class="chapter" data-level="1" data-path="conceitos.html"><a href="conceitos.html"><i class="fa fa-check"></i><b>1</b> Conceitos</a>
 <ul>
@@ -279,24 +279,42 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <div id="como-fazer-1" class="section level2 unnumbered">
 <h2>Como fazer</h2>
 <ul>
-<li>O PDCA e ferramentas da qualidade são meios bastante uteis, ou pelo menos o diagrama ishikawa e o método dos 5 porquês.</li>
+<li><p>O PDCA e ferramentas da qualidade são meios bastante uteis</p></li>
+<li><p>O diagrama ishikawa</p></li>
 </ul>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="definição-do-problema-objetivo-e-metrica-de-sucesso.html#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">#pacotes usados</span></span>
-<span id="cb1-2"><a href="definição-do-problema-objetivo-e-metrica-de-sucesso.html#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
-<span id="cb1-3"><a href="definição-do-problema-objetivo-e-metrica-de-sucesso.html#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(qcc)</span>
-<span id="cb1-4"><a href="definição-do-problema-objetivo-e-metrica-de-sucesso.html#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-5"><a href="definição-do-problema-objetivo-e-metrica-de-sucesso.html#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="co">#criando o diagrama de ishikawa</span></span>
-<span id="cb1-6"><a href="definição-do-problema-objetivo-e-metrica-de-sucesso.html#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="fu">cause.and.effect</span>(<span class="at">cause =</span> <span class="fu">list</span>(<span class="at">Medida   =</span> <span class="fu">c</span>(<span class="st">&quot;Aferição&quot;</span>,<span class="st">&quot;Acompanhamento&quot;</span>,<span class="st">&quot;Indicador&quot;</span>),</span>
-<span id="cb1-7"><a href="definição-do-problema-objetivo-e-metrica-de-sucesso.html#cb1-7" aria-hidden="true" tabindex="-1"></a>                              <span class="at">Material =</span> <span class="fu">c</span>(<span class="st">&quot;Qualidade&quot;</span>,<span class="st">&quot;Padronização&quot;</span>,<span class="st">&quot;Entrega&quot;</span>),</span>
-<span id="cb1-8"><a href="definição-do-problema-objetivo-e-metrica-de-sucesso.html#cb1-8" aria-hidden="true" tabindex="-1"></a>                              <span class="at">Pessoas  =</span> <span class="fu">c</span>(<span class="st">&quot;Comunicação&quot;</span>,<span class="st">&quot;Disciplina&quot;</span>,<span class="st">&quot;Criatividade&quot;</span>),</span>
-<span id="cb1-9"><a href="definição-do-problema-objetivo-e-metrica-de-sucesso.html#cb1-9" aria-hidden="true" tabindex="-1"></a>                              <span class="at">Ambiente =</span> <span class="fu">c</span>(<span class="st">&quot;Calor&quot;</span>,<span class="st">&quot;Frio&quot;</span>,<span class="st">&quot;Espaço&quot;</span>),</span>
-<span id="cb1-10"><a href="definição-do-problema-objetivo-e-metrica-de-sucesso.html#cb1-10" aria-hidden="true" tabindex="-1"></a>                              <span class="at">Metodo   =</span> <span class="fu">c</span>(<span class="st">&quot;Procedimento&quot;</span>,<span class="st">&quot;Etapas&quot;</span>,<span class="st">&quot;Manuais&quot;</span>),</span>
-<span id="cb1-11"><a href="definição-do-problema-objetivo-e-metrica-de-sucesso.html#cb1-11" aria-hidden="true" tabindex="-1"></a>                              <span class="at">Maquina  =</span> <span class="fu">c</span>(<span class="st">&quot;Equipamento&quot;</span>,<span class="st">&quot;Ferramenta&quot;</span>,<span class="st">&quot;Instrumentos&quot;</span>)),</span>
-<span id="cb1-12"><a href="definição-do-problema-objetivo-e-metrica-de-sucesso.html#cb1-12" aria-hidden="true" tabindex="-1"></a>                 <span class="at">effect =</span> <span class="fu">c</span>(<span class="st">&quot;Redução </span><span class="sc">\n</span><span class="st"> no Nº de </span><span class="sc">\n</span><span class="st"> defeitos&quot;</span>),</span>
-<span id="cb1-13"><a href="definição-do-problema-objetivo-e-metrica-de-sucesso.html#cb1-13" aria-hidden="true" tabindex="-1"></a>                 <span class="at">title =</span> <span class="st">&quot;Diagrama de causa e efeitos&quot;</span>,</span>
-<span id="cb1-14"><a href="definição-do-problema-objetivo-e-metrica-de-sucesso.html#cb1-14" aria-hidden="true" tabindex="-1"></a>                 <span class="at">cex =</span> <span class="fu">c</span>(<span class="dv">1</span>,.<span class="dv">8</span>,.<span class="dv">8</span>),</span>
-<span id="cb1-15"><a href="definição-do-problema-objetivo-e-metrica-de-sucesso.html#cb1-15" aria-hidden="true" tabindex="-1"></a>                 <span class="at">font =</span> <span class="fu">c</span>(<span class="dv">2</span>,<span class="dv">1</span>,<span class="dv">1</span>))</span></code></pre></div>
+<span id="cb1-2"><a href="definição-do-problema-objetivo-e-metrica-de-sucesso.html#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span></code></pre></div>
+<pre><code>## -- Attaching packages ---------------------------------------------------------------------------------------------------------- tidyverse 1.3.1 --</code></pre>
+<pre><code>## v ggplot2 3.3.5     v purrr   0.3.4
+## v tibble  3.1.2     v dplyr   1.0.7
+## v tidyr   1.1.3     v stringr 1.4.0
+## v readr   1.4.0     v forcats 0.5.1</code></pre>
+<pre><code>## -- Conflicts ------------------------------------------------------------------------------------------------------------- tidyverse_conflicts() --
+## x dplyr::filter() masks stats::filter()
+## x dplyr::lag()    masks stats::lag()</code></pre>
+<div class="sourceCode" id="cb5"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb5-1"><a href="definição-do-problema-objetivo-e-metrica-de-sucesso.html#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(qcc)</span></code></pre></div>
+<pre><code>## Warning: package &#39;qcc&#39; was built under R version 4.1.1</code></pre>
+<pre><code>##   __ _  ___ ___ 
+##  / _  |/ __/ __|  Quality Control Charts and 
+## | (_| | (_| (__   Statistical Process Control
+##  \__  |\___\___|
+##     |_|           version 2.7</code></pre>
+<pre><code>## Type &#39;citation(&quot;qcc&quot;)&#39; for citing this R package in publications.</code></pre>
+<div class="sourceCode" id="cb9"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb9-1"><a href="definição-do-problema-objetivo-e-metrica-de-sucesso.html#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co">#criando o diagrama de ishikawa</span></span>
+<span id="cb9-2"><a href="definição-do-problema-objetivo-e-metrica-de-sucesso.html#cb9-2" aria-hidden="true" tabindex="-1"></a><span class="fu">cause.and.effect</span>(<span class="at">cause =</span> <span class="fu">list</span>(<span class="at">Medida   =</span> <span class="fu">c</span>(<span class="st">&quot;Aferição&quot;</span>,<span class="st">&quot;Acompanhamento&quot;</span>,<span class="st">&quot;Indicador&quot;</span>),</span>
+<span id="cb9-3"><a href="definição-do-problema-objetivo-e-metrica-de-sucesso.html#cb9-3" aria-hidden="true" tabindex="-1"></a>                              <span class="at">Material =</span> <span class="fu">c</span>(<span class="st">&quot;Qualidade&quot;</span>,<span class="st">&quot;Padronização&quot;</span>,<span class="st">&quot;Entrega&quot;</span>),</span>
+<span id="cb9-4"><a href="definição-do-problema-objetivo-e-metrica-de-sucesso.html#cb9-4" aria-hidden="true" tabindex="-1"></a>                              <span class="at">Pessoas  =</span> <span class="fu">c</span>(<span class="st">&quot;Comunicação&quot;</span>,<span class="st">&quot;Disciplina&quot;</span>,<span class="st">&quot;Criatividade&quot;</span>),</span>
+<span id="cb9-5"><a href="definição-do-problema-objetivo-e-metrica-de-sucesso.html#cb9-5" aria-hidden="true" tabindex="-1"></a>                              <span class="at">Ambiente =</span> <span class="fu">c</span>(<span class="st">&quot;Calor&quot;</span>,<span class="st">&quot;Frio&quot;</span>,<span class="st">&quot;Espaço&quot;</span>),</span>
+<span id="cb9-6"><a href="definição-do-problema-objetivo-e-metrica-de-sucesso.html#cb9-6" aria-hidden="true" tabindex="-1"></a>                              <span class="at">Metodo   =</span> <span class="fu">c</span>(<span class="st">&quot;Procedimento&quot;</span>,<span class="st">&quot;Etapas&quot;</span>,<span class="st">&quot;Manuais&quot;</span>),</span>
+<span id="cb9-7"><a href="definição-do-problema-objetivo-e-metrica-de-sucesso.html#cb9-7" aria-hidden="true" tabindex="-1"></a>                              <span class="at">Maquina  =</span> <span class="fu">c</span>(<span class="st">&quot;Equipamento&quot;</span>,<span class="st">&quot;Ferramenta&quot;</span>,<span class="st">&quot;Instrumentos&quot;</span>)),</span>
+<span id="cb9-8"><a href="definição-do-problema-objetivo-e-metrica-de-sucesso.html#cb9-8" aria-hidden="true" tabindex="-1"></a>                 <span class="at">effect =</span> <span class="fu">c</span>(<span class="st">&quot;Redução </span><span class="sc">\n</span><span class="st"> no Nº de </span><span class="sc">\n</span><span class="st"> defeitos&quot;</span>),</span>
+<span id="cb9-9"><a href="definição-do-problema-objetivo-e-metrica-de-sucesso.html#cb9-9" aria-hidden="true" tabindex="-1"></a>                 <span class="at">title =</span> <span class="st">&quot;Diagrama de causa e efeitos&quot;</span>,</span>
+<span id="cb9-10"><a href="definição-do-problema-objetivo-e-metrica-de-sucesso.html#cb9-10" aria-hidden="true" tabindex="-1"></a>                 <span class="at">cex =</span> <span class="fu">c</span>(<span class="dv">1</span>,.<span class="dv">8</span>,.<span class="dv">8</span>),</span>
+<span id="cb9-11"><a href="definição-do-problema-objetivo-e-metrica-de-sucesso.html#cb9-11" aria-hidden="true" tabindex="-1"></a>                 <span class="at">font =</span> <span class="fu">c</span>(<span class="dv">2</span>,<span class="dv">1</span>,<span class="dv">1</span>))</span></code></pre></div>
 <p><img src="bookdownproj_files/figure-html/diagrama-ishikawa-1.png" width="768" style="display: block; margin: auto;" /></p>
+<ul>
+<li>O método dos 5 porquês.</li>
+</ul>
 </div>
 <div id="pra-onde-vai-1" class="section level2 unnumbered">
 <h2>Pra onde vai</h2>

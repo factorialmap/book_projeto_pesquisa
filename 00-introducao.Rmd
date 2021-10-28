@@ -1,42 +1,42 @@
 # Introdução {-}
 
-Este é um livro direcionado a prática e que aborda as etapas durante um projeto de pesquisa para melhoria contínua explorando temas como demanda, definição do problema, objetivo, metrica de sucesso, dados, ferramentas, exploração, modelos, versionamento, reprodutibilidade, comunicação e aplicação.
+Este é um livro direcionado a prática e aborda etapas durante um projeto de pesquisa para melhoria contínua explorando temas como demanda, definição do problema, objetivo, métrica de sucesso, dados, ferramentas, exploração, modelos, versionamento, reprodutibilidade, comunicação e aplicação.
 
-Para facilitar o entendimento dos temas abordados e das premissas que serão guias para coloboração, este livro será oganizado da seguinte forma:
+Para facilitar a compreensão e busca dos temas abordados, os capítulos serão organizados com os seguintes tópicos:
 
-- **O que é**: ou qual a ideia disso que esta sendo abordado.
+- **O que é**: ideia do que esta sendo abordado.
 - **Qual o objetivo**: pra que isso está sendo, ou foi desenvolvido.
-- **De onde vem**: são as necessidades ou a origem dessa demanda ou etapa, ou seja, a motivação.
-- **Como fazer**: é o procedimento, código, sequência ou fluxo e é importante que seja reproduzível.
-- **Pra onde vai**: é o destino. quem será o consumidor ou qual a aplicação prática.
-- **Qual o resultado**: é a descrição dos resultados esperados, desejados ou comprovados.
+- **De onde vem**: quais as necessidades ou origem dessa demanda. A motivação.
+- **Como fazer**: qual o procedimento, código, sequência ou fluxo
+- **Pra onde vai**: quem é o consumidor disso. Qual a aplicação prática disso.
+- **Qual o resultado**: descrição dos resultados previstos ou comprovados.
 
 
 ## Objetivo {-}
 
-- Facilitar o entendimento dos conceitos usando linguagem simples e exemplos práticos do dia a dia.
+- Facilitar o entendimento e aplicação prática dos conceitos sobre pesquisa e melhoria contínua.
 
-- Permitir a replicação dos experimentos usando a linguagem de computação científica R.
+- Permitir a replicação dos experimentos, pra isso será usado a linguagem de computação científica R.
 
-- Explorar o conceito por traz de cada etapa com a ideia de tornar esse trabalho atemporal.
+- Explorar o conceito por traz das etapas a fim de  tornar esse trabalho atemporal.
 
 
 ## Motivação {-}
 
-Poder usar ferramentas tecnológicas disponíveis para potencializar as capacidades humanas na busca da melhoria contínua e conseguir transformar em oportunidades, os seguintes desafios:
+Explorar e usar ferramentas tecnológicas disponíveis para potencializar as capacidades humanas na busca da melhoria contínua e conseguir transformar em oportunidades, os seguintes desafios:
 
-- **Transição demográfica** que mede a mudança histórica de taxas de natalidade, mortalidade e crescimento populacional decorrentes do avanço da medicina, urbanização e desenvolvimento de novas técnologias. 
+- **Transição demográfica** que é a mudança histórica de taxas de natalidade, mortalidade e crescimento populacional decorrentes do avanço da medicina, urbanização e desenvolvimento de novas técnologias. 
 
-- **Tecnologias disrruptivas** instrumentos e técnicas como inteligência artificial, veículos autonomos, blockchain, impressão 3D, realidade virtual e aumentada, internet das coisas, edição genética CRISPR e aceleração de partículas estão sendo aprimorados e podem modificar substancialmente o modo como as coisas são feitas.
+- **Tecnologias disrruptivas** instrumentos e técnicas como inteligência artificial, veículos autonomos, blockchain, impressão 3D, realidade virtual e aumentada, internet das coisas, edição genética CRISPR e aceleração de partículas estão sendo aprimorados e podem impactar significativamente no modo como as coisas são feitas.
 
 - **Atividade economica em países emergentes** em 2020 países como Indonésia, Africa do Sul, Russia, México, Malasia, Colombia, Polônia, Chile, Hingria, Tailandia, Turquia, Brasil, China e Índia são considerandos países emergentes. Boa parte desses países, têm feito progressos notáveis no fortalecimento de seus políticas macroeconômicas desde a virada do século o que os permitiu mais do que dobrar a renda per capita em média.
 
-- **Mudanças climáticas** impactam diretamente no comportamento das pessoas refletindo na demanda, nos meios de produção alterando a forma como as coisas são feitas.
+- **Mudanças climáticas** remete a mudança nas relações entre o ser humano e o meio ambiente, ao habito de consumo e impactam diretamente no comportamento das pessoas, na demanda de produtos e serviços, nos meios de produção e na forma como as coisas são consumidas.
 
-## Desafios da melhoria contínua {-}
+## Desafios de melhoria contínua {-}
 
-- Estimular o aproveitamento de pesquisas técnicas e científicas através de reprodutibilidade.
+- Interação entre indivíduos de diversas áreas do conhecimento em atividades multidisciplinares.
 
-- Contribuir para a competitividade, qualificação do capital humano.
+- Potencialização das capacidades humanas.
 
-- Ampliar a interação e colaboração entre pesquisadores de diversas áreas do conhecimento em atividades multidisciplinares.
+- Associar conhecimento, inovação tecnológica e desenvolvimento.
